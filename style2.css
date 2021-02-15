@@ -1,0 +1,57 @@
+body{
+	background: gray;
+	margin: 0;
+}
+.rounded{
+	background: white;
+	width: 600px;
+	margin: auto;
+}
+.descripcion-foto1{
+	display: flex;
+	text-align: center;
+}
+h2{
+	width: 80%;
+	text-align: left;
+	padding-left: 5px;
+}
+h6{
+	width: 20%;
+	display: inline-block;
+	color: gray;
+	text-align: right;
+	padding-right: 5px;
+}
+.imagen1{
+	margin: auto;
+}
+.contenido{
+	text-align: center;
+}
+.pie-foto1{
+	padding: 10px;
+	text-align: left;
+
+}
+.fondo{
+	background-color: lightgray;
+}
+.pie-final{
+	display: flex;
+	color: gray;
+}
+.icono-izquierda{
+	text-align: left;
+	width: 8%;
+	padding-left: 13px;
+}
+.icono-derecha{
+	text-align: right;
+	width: 75%
+}
+.modal-body{
+	text-align: left;
+	padding-left: 13px;
+	
+}

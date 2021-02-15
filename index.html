@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Instagram Photo Feet</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div class="barra-estatica bg-light">
+			<div class="row">
+				<div class="col-sm-8 col-md- col-">
+					<nav class="navbar navbar-light bg-light">
+						<ul class="nav nav-pills nav-fill">
+						   	<li class="nav-item" style="color: black; font-family: 'Sriracha', cursive;">
+							    <a class="nav-link"><i class="fab fa-instagram"></i>Instagram</a>
+						  	</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-sm-4 col-md- col-">
+					<nav class="navbar navbar-light bg-light">
+						<ul class="nav nav-pills nav-fill">
+							<li class="nav-item" >
+							    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="background-color: green">		Create a new post
+								</button>
+							</li>
+							<li class="nav-item dropdown">
+							    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+							    	<i class="fas fa-cog"></i>
+							    </a>
+								<div class="dropdown-menu">
+							      <a class="dropdown-item" href="#">Action</a>
+							      <a class="dropdown-item" href="#">Another action</a>
+							      <a class="dropdown-item" href="#">Something else here</a>
+							      <div class="dropdown-divider"></div>
+							      <a class="dropdown-item" href="#">Log Out</a>
+							    </div>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>	
+		</div>
+
+
+		<div class="barra-selectiva">
+			<nav id="navbar-example2" class="navbar navbar-light bg-light justify-content-center">
+				<ul class="nav">
+				  <li class="nav-item">
+				    <a class="navbar-brand" href="index.html">
+				    	<i class="fas fa-th"></i>
+				  	</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="navbar-brand" href="index2.html">
+				    	<i class="fas fa-square"></i>
+				  	</a>
+				  </li>
+				</ul>
+			</nav>
+		</div>
+
+
+
+		<div class="cuerpo-grilla">
+			<div class="row">
+				<div class="col-sm-3 col-md-12 col-12 col-xl-12">
+					<img src="https://picsum.photos/200/300?grayscale" height="200px" width="33%">
+					<img src="https://picsum.photos/200/300" height="200px" width="33%">
+					<img src="https://picsum.photos/200/300/?blur" height="200px" width="33%">
+				</div>
+				<div class="col-sm-3 col-md-12 col-12 col-xl-12">
+					<img src="https://picsum.photos/200/300/?blur" height="200px" width="33%">
+					<img src="https://picsum.photos/200/300?grayscale" height="200px" width="33%">
+					<img src="https://picsum.photos/200/300" height="200px" width="33%">
+				</div>
+				<div class="col-sm-3 col-md-12 col-12 col-xl-12">
+					<img src="https://picsum.photos/200/300" height="200px" width="33%">
+					<img src="https://picsum.photos/200/300/?blur" height="200px" width="33%">
+					<img src="https://picsum.photos/200/300?grayscale" height="200px" width="33%">
+				</div>
+			</div>
+		</div>
+		
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header" style="background-color: white">
+				<textarea name="comentarios" style="width: 100%"> </textarea>
+		      </div>
+		      <div class="modal-body">
+		      	<i class="fas fa-camera"></i>
+		      	<i class="fas fa-lightbulb"></i>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal" style="background-color: white; color: black">
+		        Cancel</button>
+		        <button type="button" class="btn btn-primary" style="background-color: green; color: white">Publish</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+	</div>
+
+	<script src="https://kit.fontawesome.com/c17773851a.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

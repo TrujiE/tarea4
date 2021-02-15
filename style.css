@@ -1,0 +1,37 @@
+.titulo{
+	font-family: 'Sriracha', cursive;
+}
+.contenido{
+	background: blue;
+
+}
+.barra-estatica{
+	background-color: white;
+	
+}
+.barra-selectiva{
+	background-color: white;
+
+
+}
+.cuerpo-grilla{
+	background-color: white;
+
+
+
+}
+.cuerpo-columna{
+	background-color: orange;
+}
+.col-sm-3{
+	padding-bottom: 5px;	
+}
+.col-md-12{
+	padding-bottom: 5px;	
+}
+.col-12{
+	padding-bottom: 5px;	
+}
+.col-xl-12{
+	padding-bottom: 5px;
+}
